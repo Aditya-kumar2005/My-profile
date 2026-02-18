@@ -24,7 +24,7 @@ export default function Section3() {
         <div className="relative flex justify-center">
           {/* Main image */}
           <Image
-            src="/apple.png"
+            src="/Flower.jpg"
             alt="Person holding lilacs"
             className="rounded-t-[200px] object-cover w-64 h-64 md:w-96 md:h-96"
             width={400}
@@ -34,7 +34,7 @@ export default function Section3() {
           {/* Circular inset image */}
           <div className="absolute -bottom-6 -right-6 w-20 h-20 md:w-44 md:h-44 rounded-full overflow-hidden border-4 border-white shadow-lg">
             <Image
-              src="/apple.png"
+              src="/R.jpg"
               alt="Close-up of lilac flowers"
               className="object-cover"
               width={400}
