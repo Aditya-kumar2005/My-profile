@@ -17,7 +17,7 @@ export default function Navbar() {
 
         <button
           aria-label='Menu'
-          className='md:hidden p-2 rounded-md text-2xl'
+          className='md:hidden p-2 rounded-md text-2xl text-[#3d4a35]'
           onClick={() => setOpen((s) => !s)}
         >
           {open ? '✕' : '☰'}
@@ -25,7 +25,7 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className='md:hidden bg-white border-t'>
+        <div className='md:hidden bg-white border-t text-[#3d4a35]'>
           <div className='max-w-6xl mx-auto flex flex-col p-4 space-y-3'>
             <Link href="/pages/Blog" onClick={() => setOpen(false)} className='text-lg'>Blog</Link>
             <Link href="/pages/Contact" onClick={() => setOpen(false)} className='text-lg'>Contact</Link>

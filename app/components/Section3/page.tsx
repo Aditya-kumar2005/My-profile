@@ -15,7 +15,7 @@ export default function Section3() {
           </p>
           <br />
           <br />
-          <Link href="/pages/Contact" className="px-6 md:px-8 py-2 text-[#3d4a35] bg-[#E8E4D9] border-2 border-[#3d4a35] hover:text-white hover:bg-[#3d4a35] transition rounded">
+          <Link href="/pages/Contact" className="px-6 md:px-8 py-2 text-[#3d4a35] bg-[#E8E4D9] border-2 border-[#3d4a35] hover:text-white hover:bg-[#3d4a35] transition">
             LET&apos;S CHAT →
           </Link>
         </div>
